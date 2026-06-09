@@ -1,26 +1,56 @@
 @import "tailwindcss";
+@import "../styles/pitch.css";
 
+/* Map the design tokens to the next/font CSS variables loaded in the layout. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --f-display: var(--font-display), "Space Grotesk", system-ui, sans-serif;
+  --f-body: var(--font-body), "Inter", system-ui, sans-serif;
+  --f-mono: var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Rich() renders <strong>; mirror the prototype's <b> accenting. */
+.hero-eyebrow strong {
+  color: var(--accent-ink);
+  font-weight: 500;
+}
+.footer .built strong {
+  color: var(--accent-ink);
+  font-weight: 500;
+}
+.contact h2 strong,
+.contact h2 .wink {
+  color: var(--accent-ink);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Image placeholder slots (replace the prototype's <image-slot> web component). */
+.image-slot {
+  position: relative;
+  display: block;
+  background: var(--surface-2);
+  overflow: hidden;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.image-slot.is-placeholder {
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--line-2);
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--surface-2) 0,
+    var(--surface-2) 10px,
+    color-mix(in srgb, var(--accent) 7%, var(--surface-2)) 10px,
+    color-mix(in srgb, var(--accent) 7%, var(--surface-2)) 20px
+  );
+}
+.image-slot .image-slot-label {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--text-2);
+  text-align: center;
+  padding: 14px;
+  max-width: 85%;
+}
+.image-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

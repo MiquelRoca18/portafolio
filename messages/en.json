@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "about",
+    "stack": "stack",
+    "exp": "experience",
+    "projects": "projects",
+    "contact": "contact"
+  },
+  "hero": {
+    "eyebrow": "Full-stack developer · **available**",
+    "chip": "Available for work",
+    "role": "full-stack developer",
+    "lead": "I build products end to end —**frontend, backend and mobile**— with a focus on clean code, accessibility and shipping value fast. A versatile, low-risk junior.",
+    "cta": {
+      "projects": "View projects",
+      "cv": "Download CV",
+      "contact": "Get in touch"
+    },
+    "meta": {
+      "loc": "[City], [Country]",
+      "exp": "1–2 years experience",
+      "remote": "Remote / hybrid"
+    },
+    "scroll": "scroll"
+  },
+  "stat": {
+    "years": "Years of experience",
+    "projects": "Projects shipped",
+    "tech": "Technologies",
+    "commits": "Commits this year"
+  },
+  "about": {
+    "comment": "about me",
+    "title": "The player card",
+    "pos": "Position · Full-stack",
+    "name": "Miquel Roca",
+    "h": "The product midfielder: I link the backend defence with the frontend attack.",
+    "p1": "I started in the **frontend** and worked my way down to the server until I was comfortable across the whole pitch. Today I design APIs, model data and polish accessible interfaces without losing sight of the business.",
+    "p2": "Away from the keyboard: football on Sundays, arthouse cinema midweek and a notebook full of half-finished ideas. **I learn fast and play for the team.**"
+  },
+  "attr": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "mobile": "Mobile",
+    "teamwork": "Teamwork"
+  },
+  "stack": {
+    "comment": "the starting XI",
+    "title": "Stack · 4-3-3 lineup",
+    "lead": "Each technology, a position. Defence = backend & data · midfield = languages & core · attack = frontend & mobile · goalkeeper = tooling & devops.",
+    "view": {
+      "pitch": "Pitch",
+      "list": "List"
+    }
+  },
+  "line": {
+    "gk": "Goalkeeper · Tools & DevOps",
+    "def": "Defence · Backend & Data",
+    "mid": "Midfield · Languages & Core",
+    "fwd": "Attack · Frontend & Mobile"
+  },
+  "lineSub": {
+    "gk": "Quality and workflow.",
+    "def": "The foundation everything is built on.",
+    "mid": "The engine of the game.",
+    "fwd": "What the user sees and touches."
+  },
+  "exp": {
+    "comment": "experience",
+    "title": "Track record",
+    "e1": {
+      "period": "March 2026 — Present",
+      "company": "Softtalia",
+      "place": "SEO & Marketing agency",
+      "role": "Software Developer",
+      "b1": "Built **data extraction and structuring** systems (web scraping) with `Python` to feed market analysis.",
+      "b2": "Automated information gathering with `n8n` and `Python`, removing repetitive manual work.",
+      "b3": "Designed **custom software tools** for market analysis, containerised with `Docker`."
+    },
+    "e2": {
+      "period": "March 2024 — July 2025",
+      "company": "Soluciones Abiertas",
+      "place": "Web development",
+      "role": "Web Developer",
+      "b1": "Development of **custom WordPress plugins**.",
+      "b2": "**Full maintenance** and optimisation of websites.",
+      "b3": "**Migration of web frameworks**."
+    }
+  },
+  "proj": {
+    "comment": "case studies",
+    "title": "Projects",
+    "flag": {
+      "tag": "Flagship project",
+      "title": "Tenly",
+      "tagline": "Tennis predictions powered by machine learning, in your pocket.",
+      "problem": "Tennis fans had no simple way to check matches, stats and data-driven predictions from a single app.",
+      "solution": "Built a cross-platform app with Expo and React Native connected to an ML-powered API, with data charts and Supabase auth.",
+      "role": "Full-stack — from the data model and API to the interface and deploy on Vercel + Railway.",
+      "result": "Working app shipped with real-time predictions, interactive charts and web + mobile support from a single codebase."
+    },
+    "k": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "role": "My role",
+      "result": "Result"
+    },
+    "demo": "Live demo",
+    "github": "GitHub",
+    "case": "Read case",
+    "c1": {
+      "title": "MultiScraping",
+      "desc": "Lead generation suite from Google Maps, Instagram & LinkedIn with a unified web dashboard and CSV export."
+    }
+  },
+  "contact": {
+    "comment": "contact",
+    "title": "Shall we **sign**?",
+    "lead": "Available for full-stack, frontend or mobile roles. If I fit your team, let’s talk — I reply fast.",
+    "cv": "Download CV (PDF)",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "built": "Built with **Next.js · TypeScript · Tailwind** — deployed on **Vercel**",
+    "rights": "© 2026 Miquel Roca",
+    "top": "Back to top ↑"
+  },
+  "a11y": {
+    "home": "Home",
+    "sections": "Sections",
+    "lang": "Idioma / Language",
+    "theme": "Toggle theme",
+    "menu": "Open menu",
+    "mobileMenu": "Mobile menu",
+    "lineupView": "Lineup view",
+    "lineupAria": "4-3-3 lineup of technologies. An accessible equivalent is available in the list view."
+  }
+}
