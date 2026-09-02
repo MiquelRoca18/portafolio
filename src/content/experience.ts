@@ -4,6 +4,7 @@
  * language-neutral stack tags.
  */
 export const experience = [
-  { key: "exp.e1", stack: ["Python", "n8n", "Docker", "JavaScript", "MySQL"] },
-  { key: "exp.e2", stack: ["WordPress", "PHP", "JavaScript", "Tailwind"] },
+  { key: "exp.e1", stack: ["Python", "Odoo", "PrestaShop", "REST APIs", "Docker"] },
+  { key: "exp.e2", stack: ["Python", "n8n", "Docker", "JavaScript", "MySQL"] },
+  { key: "exp.e3", stack: ["WordPress", "PHP", "JavaScript", "Tailwind"] },
 ] as const;

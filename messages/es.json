@@ -69,7 +69,16 @@
     "comment": "experiencia",
     "title": "Trayectoria",
     "e1": {
-      "period": "Marzo 2026 — Actualmente",
+      "period": "Julio 2026 — Actualmente",
+      "company": "MueMue",
+      "place": "E-commerce de mobiliario",
+      "role": "Desarrollador Software · Logística",
+      "b1": "Automaticé la **asignación de transportista, palet y bultos** en pedidos de salida de Odoo con `Python` (acciones de servidor y crons). En producción.",
+      "b2": "Construí la **confirmación automática de envíos** en marketplaces (Mirakl, Lengow, PrestaShop) con webhooks, `API REST` y `XML-RPC`.",
+      "b3": "Monté **entornos de prueba con Docker** (Odoo 17 + PostgreSQL) y dobles de API para probar sin tocar producción."
+    },
+    "e2": {
+      "period": "Marzo 2026 — Junio 2026",
       "company": "Softtalia",
       "place": "Agencia SEO & Marketing",
       "role": "Desarrollador Software",
@@ -77,7 +86,7 @@
       "b2": "Automaticé la recolección de información con `n8n` y `Python`, eliminando tareas manuales repetitivas.",
       "b3": "Diseñé **herramientas software a medida** para el análisis de mercados, contenerizadas con `Docker`."
     },
-    "e2": {
+    "e3": {
       "period": "Marzo 2024 — Julio 2025",
       "company": "Soluciones Abiertas",
       "place": "Desarrollo web",

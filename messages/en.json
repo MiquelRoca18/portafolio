@@ -69,7 +69,16 @@
     "comment": "experience",
     "title": "Track record",
     "e1": {
-      "period": "March 2026 — Present",
+      "period": "July 2026 — Present",
+      "company": "MueMue",
+      "place": "Furniture e-commerce",
+      "role": "Software Developer · Logistics",
+      "b1": "Automated **carrier, pallet and package assignment** on Odoo outgoing orders with `Python` (server actions and crons). In production.",
+      "b2": "Built **automatic shipment confirmation** on marketplaces (Mirakl, Lengow, PrestaShop) using webhooks, `REST APIs` and `XML-RPC`.",
+      "b3": "Set up **Docker test environments** (Odoo 17 + PostgreSQL) with API doubles to test without touching production."
+    },
+    "e2": {
+      "period": "March 2026 — June 2026",
       "company": "Softtalia",
       "place": "SEO & Marketing agency",
       "role": "Software Developer",
@@ -77,7 +86,7 @@
       "b2": "Automated information gathering with `n8n` and `Python`, removing repetitive manual work.",
       "b3": "Designed **custom software tools** for market analysis, containerised with `Docker`."
     },
-    "e2": {
+    "e3": {
       "period": "March 2024 — July 2025",
       "company": "Soluciones Abiertas",
       "place": "Web development",
