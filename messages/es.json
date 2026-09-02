@@ -70,7 +70,7 @@
     "title": "Trayectoria",
     "e1": {
       "period": "Julio 2026 — Actualmente",
-      "company": "MueMue",
+      "company": "MueMue Home S.L.",
       "place": "E-commerce de mobiliario",
       "role": "Desarrollador Software · Logística",
       "b1": "Automaticé la **asignación de transportista, palet y bultos** en pedidos de salida de Odoo con `Python` (acciones de servidor y crons). En producción.",

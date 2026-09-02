@@ -70,7 +70,7 @@
     "title": "Track record",
     "e1": {
       "period": "July 2026 — Present",
-      "company": "MueMue",
+      "company": "MueMue Home S.L.",
       "place": "Furniture e-commerce",
       "role": "Software Developer · Logistics",
       "b1": "Automated **carrier, pallet and package assignment** on Odoo outgoing orders with `Python` (server actions and crons). In production.",
