@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  // TODO: set your real domain once deployed.
-  metadataBase: new URL("https://portfolio.example.com"),
+  metadataBase: new URL("https://portafolio-miquelroca.vercel.app"),
 };
 
 // The document shell (<html>/<body>) lives in app/[locale]/layout.tsx so it
